@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+body {
+   background-image: url('/img/bg-intro-desktop.png');
+   background-color: #F88379;
+
+}
+
+.text {
+    /* background-color: white; */
+    width: 600px;
+    height: 250px;
+
+}
+
+.text1 {
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    color: white;
+    padding: 50px;
+    
+
+}
+
+.text2 {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    padding: 50px;
+}
+
+.form {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 10px;
+
+
+}
+
+.white {
+    background-color: white;
+    width: 500px;
+    height: 450px;
+    border-radius: 10px;
+
+    
+}
+
+.trial {
+    background-color: blue ;
+    padding: 10px;
+    border-radius: 10px 10px 10px 10px;
+    border-color: blue;
+    width: 450px;
+    height: 30px;  
+      
+}
+
+.trial1 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    display: contents;
+    
+    
+}
+
+
+#text {
+    width: 450px;
+    height: 50px;
+    border-radius: 10px;
+    border-style: groove;
+}
+
+
+#text::placeholder {
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    padding-left: 25px;
+}
+
+#submit {
+    font-family: 'Poppins', sans-serif;
+    width: 450px;
+    height: 50px;
+    color: white;
+    background: #9acd32;
+    border-color: #9acd32;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+
+#submit:hover {
+    background: #addfad;
+    cursor: pointer;
+}
+
+.terms {
+    font-family: 'Poppins', sans-serif;
+    display: block;
+}
+
+.service {
+    text-decoration: none;
+    color: #fe0944;
+}

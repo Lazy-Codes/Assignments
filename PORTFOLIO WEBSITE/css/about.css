@@ -1,0 +1,17 @@
+.nav {
+    display: flex;
+    justify-content: center;
+    border: 10px;
+}
+
+.btn-primary{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
+

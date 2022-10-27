@@ -1,0 +1,71 @@
+<!DOCTYPE html>    
+<html>    
+<head>    
+    <title>Login Page</title>    
+    <link rel="stylesheet" type="text/css" href="/index.css"> 
+    <script>
+        function registration() {
+            window.location = "htps://www.google.com";
+        
+        }
+    </script>   
+</head>    
+<body>    
+    <h2>registration page</h2><br>    
+    <div class="login">    
+    <form id="login" method="get" action="login.php">    
+        <label>
+            <b>First Name</b>    
+        </label>  
+        <br>
+        <input type="text" name="Uname" id="Uname" placeholder="First Name" required>    
+        <br><br>
+        <label>
+            <b>Last Name</b>    
+        </label> 
+        <input type="text" name="Uname" id="Uname" placeholder="Last Name" required>    
+        <br><br>
+        <label>
+            <b>Date Of Birth</b>
+        </label><br>
+        <input type="date" min="01-01-1997" max="12-12-2030"><br><br>
+        <label class="radio"> <b>Gender</b><br>
+            <input type="radio" name="true">Male
+            <input type="radio" name="true">Female
+        </label>
+        <br><br>
+        <label>
+            <b>Favorite Color</b>
+        </label><br>
+        <input type="color"><br><br>
+        <label>
+            <b>Telephone</b>
+        </label><br>
+        <input type="tel" name="tele" class="tele" placeholder="Number">
+        <br><br>
+        <label>
+            <b>E-Mail</b>
+        </label><br>
+        <input type="email" name="mail" class="mail" placeholder="E-mail" required>
+        <br><br>
+        <label>
+            <label>
+                <b>Username</b>    
+            </label> 
+            <input type="text" name="Uname" id="Uname" placeholder="Username" required>    
+            <br><br> 
+            <b>Password</b>    
+        </label> 
+        <br>
+        <input type="Password" name="Pass" id="Pass" placeholder="Password" required>    
+        <br><br>
+        <input type="submit" value="Create Account" id="submit" onclick="registration()" ><br>
+        <input type="checkbox" id="check">    
+        <span>Remember me</span>    
+        <br>
+        <a href="#" class="forgot">Forgot Password</a>    
+    </form>     
+</div>    
+</body>    
+</html>    
+
